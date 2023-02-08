@@ -67,6 +67,7 @@ public class Routine {
             System.out.println("\nHours remaining thus far: " + hoursRemaining);
         } else if (!multitask) {
             System.out.println("I guess you will require 2 hours for dinner, since you can't handle cooking and cleaning at the same time.");
+            hoursRemaining -= 2;
             System.out.println("\nHours remaining thus far: " + hoursRemaining);
         } else {
             System.out.println("I said true or false only. Do not make me take another hour from your life.");
